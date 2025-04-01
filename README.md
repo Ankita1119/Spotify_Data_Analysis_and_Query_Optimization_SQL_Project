@@ -37,6 +37,7 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
+*** 
 
 
 ## 🔍 Query Categories & Insights
