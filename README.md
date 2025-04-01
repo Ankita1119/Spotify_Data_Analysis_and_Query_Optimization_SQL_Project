@@ -38,3 +38,32 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
+
+## 🔍 Query Categories & Insights
+
+### 🎯 Basic Queries (Easy Level)
+
+*  Retrieve tracks with more than 1 billion streams.
+* List all albums with their respective artists.
+*  Get the total comments for licensed tracks.
+*  Find all tracks categorized under single albums.
+*  Count the total number of tracks by each artist.
+
+### ⚡ Analytical Queries (Intermediate Level)
+
+* Calculate the average danceability of tracks per album.
+* Identify the top 5 tracks with the highest energy levels.
+* List tracks with their views & likes for official music videos.
+* Compute the total views per album.  
+* Compare Spotify vs. YouTube streams for tracks.
+* Find the percentage of official music videos vs. non-official uploads.
+* Identify the fastest-growing song based on streams per like ratio.
+
+### 🚀 Advanced SQL Techniques (Advanced Level)
+
+* Retrieve the top 3 most-viewed tracks for each artist using window functions.
+* Find tracks where the liveness score exceeds the average.
+* Use Common Table Expressions (CTEs) to calculate energy range per album.  
+* Extract tracks where the energy-to-liveness ratio exceeds 1.2.
+* Compute the cumulative sum of likes, ordered by track popularity.
+* Predict the next trending song based on high energy, high danceability, and low views.
