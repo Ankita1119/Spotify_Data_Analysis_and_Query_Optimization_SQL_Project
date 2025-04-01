@@ -109,14 +109,14 @@ CREATE TABLE spotify (
 Used SET STATISTICS TIME, IO ON; to measure execution time and I/O cost.
 
 Example before optimization:
-***query
+
+```sql
 SELECT 
 	Artist, Track, Views_by
 FROM spotify
 WHERE Artist = 'Gorillaz' and most_playedon = 'Youtube'
 ORDER BY Stream DESC;
-***
-
+```
 
 
 
