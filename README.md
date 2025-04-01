@@ -1,1 +1,1 @@
-# Spotify-Data-Analysis-and-Query-Optimization 
+# 🎵 Spotify Data Analysis and Query Optimization
