@@ -119,8 +119,11 @@ FROM spotify
 WHERE Artist = 'Gorillaz' and most_playedon = 'Youtube'
 ORDER BY Stream DESC;
 ```
+
 ⚡ Execution time before indexing
+
 ![Image](https://github.com/user-attachments/assets/6bf88ef5-924f-43a1-8245-555c470d0f65)
+
 
 🔹 2. Indexing for Faster Retrieval
 
@@ -129,7 +132,9 @@ Created an index on frequently searched columns to improve speed:
 CREATE INDEX Artist_index ON spotify (Artist);
 ```
 ⚡ Execution time after indexing: 
+
 ![Image](https://github.com/user-attachments/assets/24c0427d-2291-461a-8935-b58455d0b782)
+
 
 🔹 3. Optimizing Query Structures
 
