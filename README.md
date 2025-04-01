@@ -166,6 +166,10 @@ Applied Normalization to reduce data redundancy and improve query speed.
 
 **Tools Used:** SSMS (SQL Server Management Studio)
 
+## 🔗 SQL File
+
+**The SQL queries used for analysis are provided separately in the project repository. Please refer to the SQL file for detailed query execution.**
+
 
 
 
