@@ -1,6 +1,6 @@
 # 🎵 Spotify Data Analysis and Query Optimization
 
-
+![Image](https://github.com/user-attachments/assets/a392c2db-9b38-4186-b235-1c4e4937e069)
 
 ## 📌 Project Overview
 
