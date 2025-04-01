@@ -1,5 +1,7 @@
 # 🎵 Spotify Data Analysis and Query Optimization
 
+
+
 ## 📌 Project Overview
 
 Welcome to the Spotify SQL Data Analysis Project, where we explore music trends, artist insights, and track statistics using SQL. This project involves writing and optimizing 18 SQL queries to uncover patterns in streaming data, track performance, and listener engagement.
@@ -127,7 +129,37 @@ Created an index on frequently searched columns to improve speed:
 CREATE INDEX Artist_index ON spotify (Artist);
 ```
 ⚡ Execution time after indexing: 
+![Image](https://github.com/user-attachments/assets/24c0427d-2291-461a-8935-b58455d0b782)
 
+🔹 3. Optimizing Query Structures
+
+Avoided SELECT * and used only required columns.
+
+Used JOINs efficiently instead of correlated subqueries.
+
+Applied Partitioning and Filtering to reduce dataset scope.
+
+🔹 4. Using Proper Data Types & Normalization
+
+Ensured indexed columns used appropriate data types for efficiency.
+
+Applied Normalization to reduce data redundancy and improve query speed.
+
+🔹 5. Performance Gains (Before vs. After Optimization)
+
+⏳ Execution time reduced by 90%
+
+💾 I/O cost minimized significantly
+
+📉 Query complexity reduced, leading to improved efficiency
+
+### 🏗️ Technology Stack
+
+**Database:** Microsoft SQL Server
+
+**SQL Techniques:** Joins, Aggregations, Window Functions, Indexing, Query Optimization
+
+**Tools Used:** SSMS (SQL Server Management Studio)
 
 
 
