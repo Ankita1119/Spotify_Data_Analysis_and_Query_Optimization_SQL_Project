@@ -117,6 +117,7 @@ FROM spotify
 WHERE Artist = 'Gorillaz' and most_playedon = 'Youtube'
 ORDER BY Stream DESC;
 ```
+Image of result before optimization
 
 
 
