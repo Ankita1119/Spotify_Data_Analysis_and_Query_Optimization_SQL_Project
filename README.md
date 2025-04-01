@@ -38,6 +38,7 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 
+
 ## 🔍 Query Categories & Insights
 
 ### 🎯 Basic Queries (Easy Level)
