@@ -120,6 +120,12 @@ ORDER BY Stream DESC;
 #### Image of result before optimization
 ![Image](https://github.com/user-attachments/assets/6bf88ef5-924f-43a1-8245-555c470d0f65)
 
+🔹 2. Indexing for Faster Retrieval
+
+Created an index on frequently searched columns to improve speed:
+```sql
+CREATE INDEX Artist_index ON spotify (Artist);
+```
 
 
 
