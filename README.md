@@ -6,12 +6,10 @@ Welcome to the Spotify SQL Data Analysis Project, where we explore music trends,
 
 ## 📂 Dataset Details
 
-The dataset consists of various attributes related to tracks, albums, and artists, helping us analyze song performance and popularity.
+#### The dataset consists of various attributes related to tracks, albums, and artists, helping us analyze song performance and popularity.
 
-Table Schema
-***
-CREATE TABLE 
-spotify (
+***SQL
+CREATE TABLE spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
     album VARCHAR(255),
