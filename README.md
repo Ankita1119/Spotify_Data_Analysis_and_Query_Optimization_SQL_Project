@@ -67,3 +67,30 @@ CREATE TABLE spotify (
 * Extract tracks where the energy-to-liveness ratio exceeds 1.2.
 * Compute the cumulative sum of likes, ordered by track popularity.
 * Predict the next trending song based on high energy, high danceability, and low views.
+
+## 📊 Key Insights
+
+🔹 Tracks with over 1 billion streams are dominated by globally popular artists.  
+🔹 Album-based analysis shows that single albums have a higher average energy level than full-length albums.  
+🔹 Songs with high danceability and energy tend to have higher engagement and future trending potential.  
+🔹 Official music videos make up approximately X% of all video-based track content.  
+🔹 Fastest-growing songs are identified by a strong ratio of streams per like, indicating viral trends.  
+🔹 Energy-to-liveness ratio helps in identifying tracks suited for live performances.  
+🔹 The top 3 most-viewed tracks per artist showcase diverse fanbase interests across different regions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
