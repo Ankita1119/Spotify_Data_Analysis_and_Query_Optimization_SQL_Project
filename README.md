@@ -9,7 +9,9 @@ Welcome to the Spotify SQL Data Analysis Project, where we explore music trends,
 The dataset consists of various attributes related to tracks, albums, and artists, helping us analyze song performance and popularity.
 
 Table Schema
-CREATE TABLE spotify (
+***
+CREATE TABLE 
+spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
     album VARCHAR(255),
@@ -35,4 +37,4 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
-
+***
