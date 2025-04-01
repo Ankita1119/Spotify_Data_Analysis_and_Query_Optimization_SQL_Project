@@ -8,6 +8,18 @@ Welcome to the Spotify SQL Data Analysis Project, where we explore music trends,
 
 #### The dataset consists of various attributes related to tracks, albums, and artists, helping us analyze song performance and popularity.
 
+🎤 **Artist:** Name of the performer
+
+🎵 **Track:** Name of the song
+
+💽 **Album:** Album name and type (Single/Album)
+
+🎚️ **Audio Features:** Danceability, Energy, Tempo, Loudness
+
+📈 **Popularity Metrics:** Views, Likes, Comments, Streams
+
+🎶 **Audio Analysis:** Liveness, Acousticness, Speechiness
+
 ```sql
 -- create table
 DROP TABLE IF EXISTS spotify;
