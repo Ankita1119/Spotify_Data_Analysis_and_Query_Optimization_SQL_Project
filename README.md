@@ -90,6 +90,18 @@ CREATE TABLE spotify (
 🔹 Energy-to-liveness ratio helps in identifying tracks suited for live performances.  
 🔹 The top 3 most-viewed tracks per artist showcase diverse fanbase interests across different regions.
 
+## ⚡ Query Optimization Techniques
+
+- 🛠 Enabling Execution Plans in MS SQL Server
+
+- To analyze query performance, execution plans were enabled in SQL Server Management Studio (SSMS) using:
+
+- 🎯 CTRL + M to enable the Actual Execution Plan
+
+- 🎯 CTRL + L for the Estimated Execution Plan
+
+- 🎯 SET SHOWPLAN_ALL ON; or SET SHOWPLAN_XML ON; to analyze without execution
+
 
 
 
