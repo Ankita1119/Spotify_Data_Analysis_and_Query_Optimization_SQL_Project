@@ -209,4 +209,9 @@ ORDER BY Stream DESC;
 
 CREATE INDEX Artist_index ON spotify (Artist);
 
+
+-- count all the records
+select count(*) 
+from spotify;
+
 -- End of Queries 
