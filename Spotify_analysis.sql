@@ -214,4 +214,7 @@ CREATE INDEX Artist_index ON spotify (Artist);
 select count(*) 
 from spotify;
 
+
+-- query add
+
 -- End of Queries 
